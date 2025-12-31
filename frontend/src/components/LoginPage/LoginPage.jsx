@@ -15,7 +15,7 @@ export default function LoginPage({ onLoginSuccess = null }) {
   const [loading, setLoading] = useState(false);
   const [submitError, setSubmitError] = useState("");
 
-  const API_BASE = "http://localhost:5000";
+  const API_BASE = "https://quize-appp.onrender.com";
 
   const validate = () => {
     const e = {};
